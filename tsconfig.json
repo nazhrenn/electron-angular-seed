@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "typeRoots": [
+            "./node_modules/@types",
+            "./node_modules/electron"
+        ]
+    },
+    "compileOnSave": true,
+    "include": [
+        "**/*.ts"
+    ],
+    "exclude": [
+        "dist/**",
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
