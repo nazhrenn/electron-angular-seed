@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@types/systemjs": "^0.20.2",
-    "electron": "^1.6.11",
+    "electron": "^9.1.0",
     "typescript": "^2.3.4"
   }
 }
